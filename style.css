@@ -579,8 +579,8 @@ footer {
       padding: 1.8rem 1rem;
 
       & .nav-logo img {
-        width: 90%;
-        padding-left: 2rem;
+        width: 80%;
+        padding-left: 8rem;
         padding-bottom: 2rem;
       }
     }
@@ -665,6 +665,12 @@ footer {
 }
 
 @media screen and (width <= 596px) {
+  html{
+    font-size: 50%;
+  }
+  .grid-two-cols {
+    padding: 9rem 2.4rem 9rem 2.4rem;
+  }
   .grid-four-cols {
     grid-template-columns: 1fr;
   }
